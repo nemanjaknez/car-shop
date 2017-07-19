@@ -1,0 +1,9 @@
+#RewriteEngine On
+#RewriteRule ^assets - [L]
+#RewriteRule
+
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteRule ^assets - [L]
+    RewriteRule ^data - [L]
+</IfModule>
